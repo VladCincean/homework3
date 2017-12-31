@@ -1,0 +1,49 @@
+~identifier  @ 0
+~constant    @ 1
+~string      @ 2
+
+# simple data type
+int         @ 3
+double      @ 4
+
+# operator
+!=          @ 5
+=           @ 6
++           @ 7
+-           @ 8
+*           @ 9
+/           @ 10
+%           @ 11
+<           @ 12
+<=          @ 13
+>           @ 13
+>=          @ 15
+==          @ 16
+<<          @ 17
+>>          @ 18
+!           @ 19
+&&          @ 20
+||          @ 21
+
+# keyword
+typedef     @ 22
+if          @ 23
+else        @ 24
+while       @ 25
+cin         @ 26
+cout        @ 27
+return      @ 28
+
+# separator
+;           @ 29
+,           @ 30
+
+# delimiter
+{           @ 31
+}           @ 32
+(           @ 33
+)           @ 34
+
+# special
+main        @ 35
+endl        @ 36
