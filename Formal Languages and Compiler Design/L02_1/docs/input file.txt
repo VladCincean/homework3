@@ -1,0 +1,16 @@
+Input file format
+-----------------
+
+The first line contain the number of states, n.
+The second line contain the number of transitions, m.
+The next n lines contains the description of the states.
+    Each line contains:
+        - (mandatory) the label of the state (e.g. q0, ...)
+        - (optional) the keyword 'initial' - used to specify that the state is initial
+        - (optional) the keyword 'final' - used to specift that the state is final
+The next m lines contains the descriptions of the transitions
+    Each line contains 3 tokens:
+        1.  the state from which the transition starts
+        2.  the label of the transition (should be a printable ASCII character)
+        3.  the state to which the transation goes
+        

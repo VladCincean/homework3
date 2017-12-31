@@ -1,0 +1,6 @@
+2
+2
+q0 initial
+q1 final
+q0 0 q1
+q1 1 q0

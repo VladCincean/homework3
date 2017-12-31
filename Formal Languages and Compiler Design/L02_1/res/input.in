@@ -1,0 +1,9 @@
+4
+3
+q0 initial
+q1
+q2
+q3 final
+q0 a q1
+q1 a q2
+q2 a q3
