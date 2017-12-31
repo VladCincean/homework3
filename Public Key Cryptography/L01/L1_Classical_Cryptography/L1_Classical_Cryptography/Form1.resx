@@ -1,0 +1,1304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="listView_EncryptionKey.Items" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0jAAAA
+        BFRleHQKSW1hZ2VJbmRleAxTdWJJdGVtQ291bnQIU3ViSXRlbTEIU3ViSXRlbTIIU3ViSXRlbTMIU3Vi
+        SXRlbTQIU3ViSXRlbTUIU3ViSXRlbTYIU3ViSXRlbTcIU3ViSXRlbTgIU3ViSXRlbTkJU3ViSXRlbTEw
+        CVN1Ykl0ZW0xMQlTdWJJdGVtMTIJU3ViSXRlbTEzCVN1Ykl0ZW0xNAlTdWJJdGVtMTUJU3ViSXRlbTE2
+        CVN1Ykl0ZW0xNwlTdWJJdGVtMTgJU3ViSXRlbTE5CVN1Ykl0ZW0yMAlTdWJJdGVtMjEJU3ViSXRlbTIy
+        CVN1Ykl0ZW0yMwlTdWJJdGVtMjQJU3ViSXRlbTI1CVN1Ykl0ZW0yNglTdWJJdGVtMjcJQmFja0NvbG9y
+        B0NoZWNrZWQERm9udAlGb3JlQ29sb3IXVXNlSXRlbVN0eWxlRm9yU3ViSXRlbXMBAAAEBAQEBAQEBAQE
+        BAQEBAQEBAQEBAQEBAQEBAQEAAQEAAgIMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStM
+        aXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmll
+        d1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0
+        ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAA
+        MVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3Rl
+        bS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5k
+        b3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZv
+        cm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxp
+        c3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3
+        SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStM
+        aXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmll
+        d1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0
+        ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAA
+        MVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3Rl
+        bS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5k
+        b3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZv
+        cm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxp
+        c3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3
+        SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStM
+        aXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmll
+        d1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0
+        ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAA
+        MVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3Rl
+        bS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5k
+        b3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAFFN5c3RlbS5EcmF3aW5nLkNv
+        bG9yAwAAAAETU3lzdGVtLkRyYXdpbmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIA
+        AAAGBAAAAAD/////HAAAAAkFAAAACQYAAAAJBwAAAAkIAAAACQkAAAAJCgAAAAkLAAAACQwAAAAJDQAA
+        AAkOAAAACQ8AAAAJEAAAAAkRAAAACRIAAAAJEwAAAAkUAAAACRUAAAAJFgAAAAkXAAAACRgAAAAJGQAA
+        AAkaAAAACRsAAAAJHAAAAAkdAAAACR4AAAAJHwAAAAXg////FFN5c3RlbS5EcmF3aW5nLkNvbG9yBAAA
+        AARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAAAAoAAAAAAAAAABgAAQAACSEAAAAB
+        3v///+D///8KAAAAAAAAAAAaAAEAAQUFAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRl
+        bStMaXN0Vmlld1N1Ykl0ZW0EAAAABHRleHQEbmFtZQVzdHlsZQh1c2VyRGF0YQEBBAI+U3lzdGVtLldp
+        bmRvd3MuRm9ybXMuTGlzdFZpZXdJdGVtK0xpc3RWaWV3U3ViSXRlbStTdWJJdGVtU3R5bGUCAAAAAgAA
+        AAoKCgoBBgAAAAUAAAAKCgoKAQcAAAAFAAAACgoKCgEIAAAABQAAAAoKCgoBCQAAAAUAAAAKCgoKAQoA
+        AAAFAAAACgoKCgELAAAABQAAAAoKCgoBDAAAAAUAAAAKCgoKAQ0AAAAFAAAACgoKCgEOAAAABQAAAAoK
+        CgoBDwAAAAUAAAAKCgoKARAAAAAFAAAACgoKCgERAAAABQAAAAoKCgoBEgAAAAUAAAAKCgoKARMAAAAF
+        AAAACgoKCgEUAAAABQAAAAoKCgoBFQAAAAUAAAAKCgoKARYAAAAFAAAACgoKCgEXAAAABQAAAAoKCgoB
+        GAAAAAUAAAAKCgoKARkAAAAFAAAACgoKCgEaAAAABQAAAAoKCgoBGwAAAAUAAAAKCgoKARwAAAAFAAAA
+        CgoKCgEdAAAABQAAAAoKCgoBHgAAAAUAAAAKCgoKAR8AAAAFAAAACgoKCgUhAAAAE1N5c3RlbS5EcmF3
+        aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0
+        eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYjAAAAFE1pY3Jvc29mdCBT
+        YW5zIFNlcmlmmpn5QAXc////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAA
+        AAAAAAAF2////xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAA
+        Cw==
+</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="listView_EncryptionKey.LabelWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="listView_EncryptionKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 51</value>
+  </data>
+  <data name="listView_EncryptionKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1083, 72</value>
+  </data>
+  <data name="listView_EncryptionKey.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;listView_EncryptionKey.Name" xml:space="preserve">
+    <value>listView_EncryptionKey</value>
+  </data>
+  <data name="&gt;&gt;listView_EncryptionKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView_EncryptionKey.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listView_EncryptionKey.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="_.Text" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="_.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="a.Text" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="a.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="b.Text" xml:space="preserve">
+    <value>b</value>
+  </data>
+  <data name="b.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="c.Text" xml:space="preserve">
+    <value>c</value>
+  </data>
+  <data name="c.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="d.Text" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="d.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="e.Text" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="e.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="f.Text" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="f.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="g.Text" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="g.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="h.Text" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="h.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="i.Text" xml:space="preserve">
+    <value>i</value>
+  </data>
+  <data name="i.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="j.Text" xml:space="preserve">
+    <value>j</value>
+  </data>
+  <data name="j.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="k.Text" xml:space="preserve">
+    <value>k</value>
+  </data>
+  <data name="k.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="l.Text" xml:space="preserve">
+    <value>l</value>
+  </data>
+  <data name="l.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="m.Text" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="m.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="n.Text" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="n.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="o.Text" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="o.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="p.Text" xml:space="preserve">
+    <value>p</value>
+  </data>
+  <data name="p.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="q.Text" xml:space="preserve">
+    <value>q</value>
+  </data>
+  <data name="q.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="r.Text" xml:space="preserve">
+    <value>r</value>
+  </data>
+  <data name="r.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="s.Text" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="s.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="t.Text" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="t.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="u.Text" xml:space="preserve">
+    <value>u</value>
+  </data>
+  <data name="u.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="v.Text" xml:space="preserve">
+    <value>v</value>
+  </data>
+  <data name="v.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="w.Text" xml:space="preserve">
+    <value>w</value>
+  </data>
+  <data name="w.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="x.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="x.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="y.Text" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="y.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="z.Text" xml:space="preserve">
+    <value>z</value>
+  </data>
+  <data name="z.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="listView_DecryptionKey.Items" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0jAAAA
+        BFRleHQKSW1hZ2VJbmRleAxTdWJJdGVtQ291bnQIU3ViSXRlbTEIU3ViSXRlbTIIU3ViSXRlbTMIU3Vi
+        SXRlbTQIU3ViSXRlbTUIU3ViSXRlbTYIU3ViSXRlbTcIU3ViSXRlbTgIU3ViSXRlbTkJU3ViSXRlbTEw
+        CVN1Ykl0ZW0xMQlTdWJJdGVtMTIJU3ViSXRlbTEzCVN1Ykl0ZW0xNAlTdWJJdGVtMTUJU3ViSXRlbTE2
+        CVN1Ykl0ZW0xNwlTdWJJdGVtMTgJU3ViSXRlbTE5CVN1Ykl0ZW0yMAlTdWJJdGVtMjEJU3ViSXRlbTIy
+        CVN1Ykl0ZW0yMwlTdWJJdGVtMjQJU3ViSXRlbTI1CVN1Ykl0ZW0yNglTdWJJdGVtMjcJQmFja0NvbG9y
+        B0NoZWNrZWQERm9udAlGb3JlQ29sb3IXVXNlSXRlbVN0eWxlRm9yU3ViSXRlbXMBAAAEBAQEBAQEBAQE
+        BAQEBAQEBAQEBAQEBAQEBAQEAAQEAAgIMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStM
+        aXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmll
+        d1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0
+        ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAA
+        MVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3Rl
+        bS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5k
+        b3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZv
+        cm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxp
+        c3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3
+        SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStM
+        aXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmll
+        d1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0
+        ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAA
+        MVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3Rl
+        bS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5k
+        b3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZv
+        cm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxp
+        c3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3
+        SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStM
+        aXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmll
+        d1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0
+        ZW0CAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAA
+        MVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3Rl
+        bS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAMVN5c3RlbS5XaW5k
+        b3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0CAAAAFFN5c3RlbS5EcmF3aW5nLkNv
+        bG9yAwAAAAETU3lzdGVtLkRyYXdpbmcuRm9udAMAAAAUU3lzdGVtLkRyYXdpbmcuQ29sb3IDAAAAAQIA
+        AAAGBAAAAAD/////HAAAAAkFAAAACQYAAAAJBwAAAAkIAAAACQkAAAAJCgAAAAkLAAAACQwAAAAJDQAA
+        AAkOAAAACQ8AAAAJEAAAAAkRAAAACRIAAAAJEwAAAAkUAAAACRUAAAAJFgAAAAkXAAAACRgAAAAJGQAA
+        AAkaAAAACRsAAAAJHAAAAAkdAAAACR4AAAAJHwAAAAXg////FFN5c3RlbS5EcmF3aW5nLkNvbG9yBAAA
+        AARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAAAAoAAAAAAAAAABgAAQAACSEAAAAB
+        3v///+D///8KAAAAAAAAAAAaAAEAAQUFAAAAMVN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRl
+        bStMaXN0Vmlld1N1Ykl0ZW0EAAAABHRleHQEbmFtZQVzdHlsZQh1c2VyRGF0YQEBBAI+U3lzdGVtLldp
+        bmRvd3MuRm9ybXMuTGlzdFZpZXdJdGVtK0xpc3RWaWV3U3ViSXRlbStTdWJJdGVtU3R5bGUCAAAAAgAA
+        AAoKCgoBBgAAAAUAAAAKCgoKAQcAAAAFAAAACgoKCgEIAAAABQAAAAoKCgoBCQAAAAUAAAAKCgoKAQoA
+        AAAFAAAACgoKCgELAAAABQAAAAoKCgoBDAAAAAUAAAAKCgoKAQ0AAAAFAAAACgoKCgEOAAAABQAAAAoK
+        CgoBDwAAAAUAAAAKCgoKARAAAAAFAAAACgoKCgERAAAABQAAAAoKCgoBEgAAAAUAAAAKCgoKARMAAAAF
+        AAAACgoKCgEUAAAABQAAAAoKCgoBFQAAAAUAAAAKCgoKARYAAAAFAAAACgoKCgEXAAAABQAAAAoKCgoB
+        GAAAAAUAAAAKCgoKARkAAAAFAAAACgoKCgEaAAAABQAAAAoKCgoBGwAAAAUAAAAKCgoKARwAAAAFAAAA
+        CgoKCgEdAAAABQAAAAoKCgoBHgAAAAUAAAAKCgoKAR8AAAAFAAAACgoKCgUhAAAAE1N5c3RlbS5EcmF3
+        aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0
+        eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYjAAAAFE1pY3Jvc29mdCBT
+        YW5zIFNlcmlmmpn5QAXc////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAA
+        AAAAAAAF2////xtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAA
+        Cw==
+</value>
+  </data>
+  <data name="listView_DecryptionKey.LabelWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="listView_DecryptionKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 165</value>
+  </data>
+  <data name="listView_DecryptionKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1083, 72</value>
+  </data>
+  <data name="listView_DecryptionKey.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;listView_DecryptionKey.Name" xml:space="preserve">
+    <value>listView_DecryptionKey</value>
+  </data>
+  <data name="&gt;&gt;listView_DecryptionKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView_DecryptionKey.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listView_DecryptionKey.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="columnHeader3.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader4.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="columnHeader4.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader5.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="columnHeader5.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader6.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="columnHeader6.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader7.Text" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="columnHeader7.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader8.Text" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="columnHeader8.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader9.Text" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="columnHeader9.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader10.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="columnHeader10.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader11.Text" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="columnHeader11.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader12.Text" xml:space="preserve">
+    <value>K</value>
+  </data>
+  <data name="columnHeader12.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader13.Text" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="columnHeader13.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader14.Text" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="columnHeader14.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader15.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="columnHeader15.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader16.Text" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="columnHeader16.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader17.Text" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="columnHeader17.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader18.Text" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="columnHeader18.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader19.Text" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="columnHeader19.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader20.Text" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="columnHeader20.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader21.Text" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="columnHeader21.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader22.Text" xml:space="preserve">
+    <value>U</value>
+  </data>
+  <data name="columnHeader22.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader23.Text" xml:space="preserve">
+    <value>V</value>
+  </data>
+  <data name="columnHeader23.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader24.Text" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="columnHeader24.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader25.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="columnHeader25.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader26.Text" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="columnHeader26.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="columnHeader27.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="columnHeader27.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 31</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Encryption Key:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 145</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Decryption Key:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 262</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Encryption Key:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="textBox_EncryptionKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 262</value>
+  </data>
+  <data name="textBox_EncryptionKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 22</value>
+  </data>
+  <data name="textBox_EncryptionKey.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;textBox_EncryptionKey.Name" xml:space="preserve">
+    <value>textBox_EncryptionKey</value>
+  </data>
+  <data name="&gt;&gt;textBox_EncryptionKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_EncryptionKey.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_EncryptionKey.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 307</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Plaintext:</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBox_Plaintext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 304</value>
+  </data>
+  <data name="textBox_Plaintext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>476, 22</value>
+  </data>
+  <data name="textBox_Plaintext.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBox_Plaintext.Name" xml:space="preserve">
+    <value>textBox_Plaintext</value>
+  </data>
+  <data name="&gt;&gt;textBox_Plaintext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_Plaintext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_Plaintext.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 348</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Ciphertext:</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBox_Ciphertext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 345</value>
+  </data>
+  <data name="textBox_Ciphertext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>476, 22</value>
+  </data>
+  <data name="textBox_Ciphertext.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBox_Ciphertext.Name" xml:space="preserve">
+    <value>textBox_Ciphertext</value>
+  </data>
+  <data name="&gt;&gt;textBox_Ciphertext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_Ciphertext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_Ciphertext.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button_ClearAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 255</value>
+  </data>
+  <data name="button_ClearAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 30</value>
+  </data>
+  <data name="button_ClearAll.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="button_ClearAll.Text" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="&gt;&gt;button_ClearAll.Name" xml:space="preserve">
+    <value>button_ClearAll</value>
+  </data>
+  <data name="&gt;&gt;button_ClearAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_ClearAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_ClearAll.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="button_Encrypt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_Encrypt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 300</value>
+  </data>
+  <data name="button_Encrypt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 30</value>
+  </data>
+  <data name="button_Encrypt.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="button_Encrypt.Text" xml:space="preserve">
+    <value>Encrypt</value>
+  </data>
+  <data name="&gt;&gt;button_Encrypt.Name" xml:space="preserve">
+    <value>button_Encrypt</value>
+  </data>
+  <data name="&gt;&gt;button_Encrypt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_Encrypt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_Encrypt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button_Decrypt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_Decrypt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 341</value>
+  </data>
+  <data name="button_Decrypt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 30</value>
+  </data>
+  <data name="button_Decrypt.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="button_Decrypt.Text" xml:space="preserve">
+    <value>Decrypt</value>
+  </data>
+  <data name="&gt;&gt;button_Decrypt.Name" xml:space="preserve">
+    <value>button_Decrypt</value>
+  </data>
+  <data name="&gt;&gt;button_Decrypt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_Decrypt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button_Decrypt.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>710, 307</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 17</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Given an encryption key and a plaintext, encrypts the plaintext.</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>710, 348</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 17</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Given an encryption key and a ciphertext, decrypts the ciphertext.</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1145, 386</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;_.Name" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;_.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;a.Name" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="&gt;&gt;a.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;b.Name" xml:space="preserve">
+    <value>b</value>
+  </data>
+  <data name="&gt;&gt;b.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;c.Name" xml:space="preserve">
+    <value>c</value>
+  </data>
+  <data name="&gt;&gt;c.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;d.Name" xml:space="preserve">
+    <value>d</value>
+  </data>
+  <data name="&gt;&gt;d.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;e.Name" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="&gt;&gt;e.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;f.Name" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="&gt;&gt;f.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;g.Name" xml:space="preserve">
+    <value>g</value>
+  </data>
+  <data name="&gt;&gt;g.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;h.Name" xml:space="preserve">
+    <value>h</value>
+  </data>
+  <data name="&gt;&gt;h.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;i.Name" xml:space="preserve">
+    <value>i</value>
+  </data>
+  <data name="&gt;&gt;i.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;j.Name" xml:space="preserve">
+    <value>j</value>
+  </data>
+  <data name="&gt;&gt;j.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;k.Name" xml:space="preserve">
+    <value>k</value>
+  </data>
+  <data name="&gt;&gt;k.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;l.Name" xml:space="preserve">
+    <value>l</value>
+  </data>
+  <data name="&gt;&gt;l.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m.Name" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="&gt;&gt;m.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;n.Name" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="&gt;&gt;n.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;o.Name" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="&gt;&gt;o.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p.Name" xml:space="preserve">
+    <value>p</value>
+  </data>
+  <data name="&gt;&gt;p.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;q.Name" xml:space="preserve">
+    <value>q</value>
+  </data>
+  <data name="&gt;&gt;q.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;r.Name" xml:space="preserve">
+    <value>r</value>
+  </data>
+  <data name="&gt;&gt;r.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;s.Name" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="&gt;&gt;s.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;t.Name" xml:space="preserve">
+    <value>t</value>
+  </data>
+  <data name="&gt;&gt;t.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;u.Name" xml:space="preserve">
+    <value>u</value>
+  </data>
+  <data name="&gt;&gt;u.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;v.Name" xml:space="preserve">
+    <value>v</value>
+  </data>
+  <data name="&gt;&gt;v.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;w.Name" xml:space="preserve">
+    <value>w</value>
+  </data>
+  <data name="&gt;&gt;w.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;x.Name" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;x.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;y.Name" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="&gt;&gt;y.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;z.Name" xml:space="preserve">
+    <value>z</value>
+  </data>
+  <data name="&gt;&gt;z.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
+    <value>columnHeader2</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Name" xml:space="preserve">
+    <value>columnHeader3</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Name" xml:space="preserve">
+    <value>columnHeader4</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader5.Name" xml:space="preserve">
+    <value>columnHeader5</value>
+  </data>
+  <data name="&gt;&gt;columnHeader5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader6.Name" xml:space="preserve">
+    <value>columnHeader6</value>
+  </data>
+  <data name="&gt;&gt;columnHeader6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader7.Name" xml:space="preserve">
+    <value>columnHeader7</value>
+  </data>
+  <data name="&gt;&gt;columnHeader7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader8.Name" xml:space="preserve">
+    <value>columnHeader8</value>
+  </data>
+  <data name="&gt;&gt;columnHeader8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader9.Name" xml:space="preserve">
+    <value>columnHeader9</value>
+  </data>
+  <data name="&gt;&gt;columnHeader9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader10.Name" xml:space="preserve">
+    <value>columnHeader10</value>
+  </data>
+  <data name="&gt;&gt;columnHeader10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader11.Name" xml:space="preserve">
+    <value>columnHeader11</value>
+  </data>
+  <data name="&gt;&gt;columnHeader11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader12.Name" xml:space="preserve">
+    <value>columnHeader12</value>
+  </data>
+  <data name="&gt;&gt;columnHeader12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader13.Name" xml:space="preserve">
+    <value>columnHeader13</value>
+  </data>
+  <data name="&gt;&gt;columnHeader13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader14.Name" xml:space="preserve">
+    <value>columnHeader14</value>
+  </data>
+  <data name="&gt;&gt;columnHeader14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader15.Name" xml:space="preserve">
+    <value>columnHeader15</value>
+  </data>
+  <data name="&gt;&gt;columnHeader15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader16.Name" xml:space="preserve">
+    <value>columnHeader16</value>
+  </data>
+  <data name="&gt;&gt;columnHeader16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader17.Name" xml:space="preserve">
+    <value>columnHeader17</value>
+  </data>
+  <data name="&gt;&gt;columnHeader17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader18.Name" xml:space="preserve">
+    <value>columnHeader18</value>
+  </data>
+  <data name="&gt;&gt;columnHeader18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader19.Name" xml:space="preserve">
+    <value>columnHeader19</value>
+  </data>
+  <data name="&gt;&gt;columnHeader19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader20.Name" xml:space="preserve">
+    <value>columnHeader20</value>
+  </data>
+  <data name="&gt;&gt;columnHeader20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader21.Name" xml:space="preserve">
+    <value>columnHeader21</value>
+  </data>
+  <data name="&gt;&gt;columnHeader21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader22.Name" xml:space="preserve">
+    <value>columnHeader22</value>
+  </data>
+  <data name="&gt;&gt;columnHeader22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader23.Name" xml:space="preserve">
+    <value>columnHeader23</value>
+  </data>
+  <data name="&gt;&gt;columnHeader23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader24.Name" xml:space="preserve">
+    <value>columnHeader24</value>
+  </data>
+  <data name="&gt;&gt;columnHeader24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader25.Name" xml:space="preserve">
+    <value>columnHeader25</value>
+  </data>
+  <data name="&gt;&gt;columnHeader25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader26.Name" xml:space="preserve">
+    <value>columnHeader26</value>
+  </data>
+  <data name="&gt;&gt;columnHeader26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader27.Name" xml:space="preserve">
+    <value>columnHeader27</value>
+  </data>
+  <data name="&gt;&gt;columnHeader27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
