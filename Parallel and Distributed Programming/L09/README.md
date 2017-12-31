@@ -1,4 +1,4 @@
-# Lab 8 - Parallelizing techniques (3 - parallel explore)
+# Lab 9 - MPI programming
 
 ## Goal
 The goal of this lab is to implement a distributed algorithm using MPI.
