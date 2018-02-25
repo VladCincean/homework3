@@ -1,10 +1,5 @@
 # Lab 1 - "Non-cooperative" multithreading
 
-## Goal
-The goal of this lab is to refresh the knowledge regarding threads and mutexes.
-
-The programs to be written will demonstrate the usage of threads to do non-cooperative work on shared data. The access to the shared data must be protected by using mutexes.
-
 ## Supermarket inventory
 There are several types of products, each having a known, constant, unit price. In the begining, we know the quantity of each product.
 
